@@ -9,7 +9,10 @@
 
 <body>
     <header>
-        
+        <nav>
+            <a class="menuButton" href="{{url_for('home')}}">Home</a>
+            <a class="menuButton" href="{{url_for('contact')}}">Contact</a>
+        </nav>
     </header>
     {% block content %}
     {% endblock %}
