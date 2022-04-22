@@ -1,21 +1,29 @@
 html {
-    margin: 0;
-    padding: 0;
-    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
     width: 100%;
     height: 100%;
 }
 
 header {
-    width: 100%;
+    max-width: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
     overflow: hidden;
-    background-color: aqua;
+    background-color: black;
+    border: 2px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 #logo {
     float: left;
     height: 50px;
-    background-color: blueviolet;
     line-height: 50px;
     text-align: center;
     font-size: 48px;
@@ -24,8 +32,10 @@ header {
 
 .menuButton {
     height: 50px;
-    background-color: blueviolet;
     float: right;
     line-height: 50px;
     text-align: center;
+    width: 15%;
+    font-size: 24px;
+    border-left: solid 1px white;
 }
