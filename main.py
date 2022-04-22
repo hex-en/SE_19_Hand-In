@@ -9,6 +9,11 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/socials')
+def socials():
+    return render_template('socials.html')
+
+
 @app.route('/contact', methods=["POST", "GET"])
 def contact():
     if request.method == "POST":

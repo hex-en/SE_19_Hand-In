@@ -10,8 +10,10 @@
 <body>
     <header>
         <nav>
-            <a class="menuButton" href="{{url_for('home')}}">Home</a>
+            <a id="logo" href="{{url_for('home')}}">McMakrela</a>
             <a class="menuButton" href="{{url_for('contact')}}">Contact</a>
+            <a class="menuButton" href="{{url_for('socials')}}">Socials</a>
+
         </nav>
     </header>
     {% block content %}
