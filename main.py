@@ -9,9 +9,9 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/socials')
-def socials():
-    return render_template('socials.html')
+@app.route('/reviews')
+def reviews():
+    return render_template('reviews.html')
 
 
 @app.route('/contact', methods=["POST", "GET"])

@@ -5,14 +5,18 @@
     <meta charset="utf-8">
     <title> {% block title %} {% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='scripts/script.js') }}">
+    </script>
+    <script src="scripts/vanilla.js"></script>
+
 </head>
 
 <body>
     <header>
         <nav>
             <a id="logo" href="{{url_for('home')}}">McMakrela</a>
-            <a class="menuButton" href="{{url_for('contact')}}">Contact</a>
-            <a class="menuButton" href="{{url_for('socials')}}">Socials</a>
+            <a class="menuButton" href="{{url_for('contact')}}">Inquiries</a>
+            <a class="menuButton" href="{{url_for('reviews')}}">Reviews</a>
 
         </nav>
     </header>
