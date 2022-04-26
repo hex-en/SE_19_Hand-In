@@ -22,7 +22,8 @@ function onYouTubeIframeAPIReady() {
         playerVars: {
             listType: 'playlist',
             color: 'white',
-            list: 'PLo04flLN8lqT8jtPF8VuNoTaQfkfiYzQJ'
+            list: 'PLo04flLN8lqT8jtPF8VuNoTaQfkfiYzQJ',
+            modestbranding: 1,
         },
         events: {
             onReady: initialize
