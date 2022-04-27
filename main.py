@@ -1,7 +1,5 @@
-from email import message
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
-from flask.helpers import url_for
 from datetime import datetime
 
 app = Flask(__name__)
@@ -24,11 +22,6 @@ class Inquiries(db.Model):
 @app.route('/')
 def home():
     return render_template('home.html')
-
-
-@app.route('/reviews')
-def reviews():
-    return render_template('reviews.html')
 
 
 @app.route('/contact', methods=["POST", "GET"])

@@ -5,6 +5,7 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+
 }
 
 
@@ -119,7 +120,19 @@ p {
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
-    background-color: #bb86fc;
 
 
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 3vh;
+}
+
+input[name=message] {
+    height: 8vh;
 }
