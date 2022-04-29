@@ -1,8 +1,8 @@
 html {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #121212;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     overflow-x: hidden;
 
@@ -10,10 +10,10 @@ html {
 
 
 header {
-    max-width: none;
-    margin: 0px;
-    padding: 0px;
-    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #121212;
     border-bottom: 1px solid black;
@@ -28,16 +28,17 @@ header {
     float: left;
     height: 50px;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
     font-size: 48px;
-    width: 40%;
+    width: 82%;
+    margin-left: 2%;
     color: #bb86fc;
 
 }
 
 .menuButton {
     height: 50px;
-    float: right;
+    float: left;
     line-height: 50px;
     text-align: center;
     width: 15%;
@@ -60,6 +61,8 @@ a {
     color: #ffffff;
     background-color: #121212;
     width: 100%;
+    overflow-x: hidden;
+
 }
 
 .videocontainer {

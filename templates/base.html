@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title> {% block title %} {% endblock %}</title>
-    
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script type="text/javascript" src="{{ url_for('static', filename='scripts/script.js') }}">
     </script>
@@ -13,11 +13,8 @@
 
 <body>
     <header>
-        <nav>
-            <a id="logo" href="{{url_for('home')}}">McMakrela</a>
-            <a class="menuButton" href="{{url_for('contact')}}">Inquiries</a>
-
-        </nav>
+        <a id="logo" href="{{url_for('home')}}">McMakrela</a>
+        <a class="menuButton" href="{{url_for('contact')}}">Inquiries</a>
     </header>
     {% block content %}
     {% endblock %}
