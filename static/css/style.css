@@ -136,3 +136,7 @@ input {
 input[name=message] {
     height: 8vh;
 }
+
+button {
+    text-align: center;
+}
