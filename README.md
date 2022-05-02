@@ -1,3 +1,4 @@
+#This website is a portfolio site for my friends
 #Instructions
 1.Open an integrated terminal in the main folder.
 2.Set up virtual env.(on mac its: source venv/bin/activate)
@@ -15,3 +16,7 @@ Portfolio,				|
 Socialmedia			    V
 links				Database
                     with inquiries
+
+#Authentication
+I didn't add any because it was not fitting this website's purpose.
+If it would make any sense i would try to add cookie based authentication.
